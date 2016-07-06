@@ -1,0 +1,95 @@
+body{
+  background-color: #3E606F;
+  color: #FCFFF5;
+  font-family: 'Lato', sans-serif;
+}
+
+a{
+  color: #D1DBBD;
+}
+
+a:hover{
+  color: #FCFFF5;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+tr:hover .libro{
+  background-color: rgba(48, 44, 45, 0.41);
+  font-weight: bold;
+}
+
+.lato{
+  font-family: 'Lato', sans-serif;
+}
+
+.titulo{
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+
+.titulo-chico{
+  font-family: 'Lobster', cursive;
+  font-size: 15px;
+  float: inherit;
+}
+
+.icono{
+  max-width: 20%;
+}
+
+.sin-float{
+  float: none;
+}
+
+.espacio-arriba{
+  margin-top: 100px;
+}
+
+.espacio-derecha{
+  margin-right: 1em;
+}
+
+.no-lista li{
+  list-style-type: none;
+}
+
+.padding-largo{
+  padding: 5px 10px;
+}
+
+.principal{
+  margin-top: 100px;
+  align-self: center;
+}
+
+.principal img{
+  width: 200px;
+}
+
+.retraso-1{
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+.retraso-2{
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  animation-delay: 1s;
+}
+
+.retraso-3{
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+
+.login-form{
+       position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       margin: auto;
+  }
